@@ -13,7 +13,7 @@
     in
     pkgs.mkShellNoCC {
 	packages = [pkgs.wget
-		    pkgs.cargo pkgs.rustc pkgs.gcc
+		    pkgs.cargo pkgs.rustc pkgs.rustfmt pkgs.gcc
 		    pkgs.openssl pkgs.pkg-config
 		   ];
     };
